@@ -1,0 +1,28 @@
+{
+  "name": "@opencts/auth",
+  "version": "1.0.0",
+  "description": "Node/Express authentication middleware from mongo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opencts/opencts-auth-middleware.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "middleware",
+    "auth",
+    "authentication",
+    "easy"
+  ],
+  "author": "OpenCTS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opencts/opencts-auth-middleware/issues"
+  },
+  "homepage": "https://github.com/opencts/opencts-auth-middleware#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
