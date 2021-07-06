@@ -1,7 +1,7 @@
 {
   "name": "@opencts/auth",
-  "version": "1.0.0",
-  "description": "Node/Express authentication middleware from mongo",
+  "version": "1.0.1",
+  "description": "Node/Express authentication middleware for mongoose's models",
   "main": "index.js",
   "repository": {
     "type": "git",

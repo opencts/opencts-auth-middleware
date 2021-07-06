@@ -1,2 +1,2 @@
 # opencts-auth-middleware
-Node/Express authentication middleware for mongo
+Node/Express authentication middleware for mongoose's models

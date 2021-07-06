@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
  * @param {MongooseModel} User 
  * @param {string} token_secret 
  */
-export default function authMiddleware(User, token_secret) {
+module.exports = function (User, token_secret) {
     const router = express.Router();
 
     router.post('/register', async (req, res) => {
